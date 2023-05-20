@@ -1,0 +1,15 @@
+.place__href {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #fff;
+    text-decoration-line: underline;
+}
+
+.place__href:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,14 @@
+.cover__overlay {
+    background: #2A2C2F;
+    opacity: 0.3;
+    width: 1184px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover__overlay:hover {
+    opacity: 0.8;
+}

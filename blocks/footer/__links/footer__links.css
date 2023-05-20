@@ -1,0 +1,11 @@
+.footer_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    gap: 18px;
+}

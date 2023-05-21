@@ -1,7 +1,7 @@
-.lead {
+.cover__text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-left: 148px;
-    padding-right: 148px;
+    z-index: 1;
 }

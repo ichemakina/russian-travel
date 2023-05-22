@@ -2,7 +2,23 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     gap: 16px;
-    margin: 92px auto;
+    margin: 92px auto 0;
     padding-left: 48px;
     padding-right: 48px;
+}
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        margin-top: 88px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        margin-top: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

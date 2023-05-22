@@ -7,8 +7,19 @@
     text-transform: uppercase;
     color: #fff;
     max-width: 158px;
-    display: flex;
     align-self: flex-start;
     margin-top: 8px;
     margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
 }

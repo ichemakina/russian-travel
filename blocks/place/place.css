@@ -1,9 +1,21 @@
 .place {
     margin-top: 80px;
     display: grid;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    /* grid-template-rows: repeat(2, minmax(min-content, max-content)); */
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-areas:
         "title website"
         "image paragraph";
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        margin-top: 73px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: minmax(min-content, max-content);
+    }
 }

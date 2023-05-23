@@ -19,10 +19,3 @@
         padding-right: 0;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .lead {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
